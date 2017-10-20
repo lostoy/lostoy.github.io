@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yingwei Li's personal homepage</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Material Design for Bootstrap fonts and icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+
+    <!-- Material Design for Bootstrap CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.3/dist/css/bootstrap-material-design.min.css" integrity="sha384-k5bjxeyx3S5yJJNRD1eKUMdgxuvfisWKku5dwHQq9Q/Lz6H8CyL89KF52ICpX4cL" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="static/css/cv_style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <!--<div class="col-2">-->
+            <!--I am sidebar-->
+        <!--</div>-->
+        <div class="col-12">
+            <!--Introduction-->
+            <div class="section card">
+                <div class="card-body">
+                    <h2>About Me</h2>
+                    <div class="row">
+                        <!--image-->
+                        <div class="col-2" id="avatar">
+                            <img src="static/img/avatar_old.jpg" alt="avatar" width="100%">
+                        </div>
+                        <!--texts-->
+                        <div class="col-8" id="intro-text">
+                            <p>Before coming to UCSD,
+                                I spent four wonderful years at University of Science and Technology of China(USTC) to get a B.E in Electronic Engineering and Information Science(1006).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Education-->
+
+            <div class="section card">
+                <div class="card-body">
+                    <h2>Education</h2>
+                    <!--education 1-->
+                    <div class="item">
+                        <div class="row">
+                            <div class="item-img col-2">
+                                <img src="static/img/ucsd_logo.png" alt="ucsd_logo">
+                            </div>
+                            <div class="item-content col-6">
+                                <h4 class="item-title">
+                                    University of California, San Diego
+                                </h4>
+                                <div class="item-subtitle">
+                                    Sep 2014 - Nov 2017
+                                </div>
+                                <div class="item-text">
+                                    <p>Master of Science, Electrical and Computer Engineering</p>
+                                    <p>Overall GPA:3.945/4.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--education 2-->
+                    <div class="item">
+                        <div class="row">
+                            <div class="item-img col-2">
+                                <img src="static/img/ustc_logo.png" alt="ustc_logo">
+                            </div>
+                            <div class="item-content col-8">
+                                <div class="item-title">
+                                    University of Science and Technology of China (USTC)
+                                </div>
+                                <div class="item-subtitle">
+                                    Sep 2010 - Jul 2014
+                                </div>
+                                <div class="item-text">
+                                    <p>BE, Electronic Engineering and Information Science</p>
+                                    <p>Overall GPA:4.02/4.3 Rank:2/133</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Experience -->
+            <div class="section card">
+                <h2>Projects</h2>
+                <div class="card-body">
+                    <!--project 1-->
+                    <div class="item row">
+                        <div class="item-img col-6">
+                            <img src="projects/gesture/img/gesture.jpg" alt="gesture">
+                        </div>
+                        <div class="item-content col-6">
+                            <div class="item-title">
+                                Large-scale Isolated Gesture Recognition Challenge
+                            </div>
+                            <div class="item-subtitle">
+                                Aug 2017 - Sep 2017,  Chalearn LAP Challenge@ICCV 2017
+                            </div>
+                            <div>
+                                <ul class="browser-default">
+                                    <li>Challenged to recognize 249 classes of gestures from RGB + D (depth) videos</li>
+                                    <li>Trained a multi-modal 3D-CNN with more than 50,000 samples for gesture recognition</li>
+                                    <li>Proposed 1) Region of Interest Masking 2) Multi-modality finetuning 3) Spatial-Temporal Pyramid encoding to improve performance</li>
+                                    <li> Ranked 3rd place out of 12 attending teams, code and model is <a href="https://github.com/yingweili/isogd">available.</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--project 2-->
+                    <div class="item">
+                        <div class="row">
+                            <div class="item-img col-6">
+                                <img src="projects/tag/img/dense-tagging.png" alt="tag">
+                            </div>
+                            <div class="item-content col-6">
+                                <div class="item-title">
+                                    Image Tagging and Search with Image-text Embedding
+                                </div>
+                                <div class="item-subtitle">
+                                    June 2016 - Sep 2016,  Adobe Research, Research Intern
+                                </div>
+                                <div>
+                                    <ul class="browser-default">
+                                        <li>Improved the in-house image auto-tagging and search system with deep learning.</li>
+                                        <li>Trained an image embedding network with PMI word vectors</li>
+                                        <li>Boosted the image search system with click-through data by ranking with positive enhancement</li>
+                                        <li>Derived an online update algorithm for PMI word embedding with a large dictionary</li>
+                                        <li>Applied the embedding network for image dense tagging in an online web demo</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--project 3-->
+                    <div class="item">
+                        <div class="row">
+                            <div class="item-img col-6">
+                                <img src="projects/flapper/img/flapper.jpg" alt="flapper">
+                            </div>
+                            <div class="item-content col-6">
+                                <div class="item-title">
+                                    Playing FlappyBird with Reinforcement Learning
+                                </div>
+                                <div class="item-subtitle">
+                                    Apr 2017 - Jun 2017,  Side Project
+                                </div>
+                                <div>
+                                    <ul class="browser-default">
+                                        <li>An interesting trial to apply reinforcement learning on playing games:
+                                            <a href="https://www.youtube.com/watch?v=bdPlSboml64">video link</a></li>
+                                        <li>Implemented the game simulator to interact with the reinforcement learning model</li>
+                                        <li>Designed a Deep Q-learning model with memory replay</li>
+                                        <li>Compared with a hand-crafted baseline policy and the Deep Q-learning achieved better results
+                                            <a href="https://www.youtube.com/watch?v=vttXy1GZWbc"> video link</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--project 4-->
+                    <div class="item">
+                        <div class="row">
+                            <div class="item-img col-6">
+                                <img src="projects/vlad3/img/vlad3.png" alt="vlad3">
+                            </div>
+                            <div class="item-content col-6">
+                                <div class="item-title">
+                                    VLAD<sup>3</sup>: Encoding Dynamics of Deep Features for Action Recognition
+                                </div>
+                                <div class="item-subtitle">
+                                    Jul 2015 - Nov 2015,  Research Project
+                                </div>
+                                <div>
+                                    <ul class="browser-default">
+                                        <li>Studied the importance of dynamics modeling in video action recognition</li>
+                                        <li>Derived a VLAD encoding(VLAD<sup>3</sup>) with Linear Dynamic System(LDS) model for deep feature sequence</li>
+                                        <li>Implemented the codebook learning and encoding of VLAD<sup>3</sup> with a modified Kalman smoothing algorithm</li>
+                                        <li>Benchmarked against common baselines and achieved superior performance on common benchmark datasets(e.g. Olympic Sports, UCF101 and THUMOS14)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--project 5-->
+                    <div class="item">
+                        <div class="row">
+                            <div class="item-img col-6">
+                                <img src="projects/map3d/img/map3d.png" alt="map3d">
+                            </div>
+                            <div class="item-content col-6">
+                                <div class="item-title">
+                                    Building Large Scale 3D Map with Kinect
+                                </div>
+                                <div class="item-subtitle">
+                                    Dec 2013 - May 2014, Microsoft Research Asia, Research Intern
+                                </div>
+                                <div>
+                                    <ul class="browser-default">
+                                        <li>Designed and implemented an indoor 3D map reconstruction system: <a href="https://www.youtube.com/watch?v=IyEPmLIH_FU">video link </a></li>
+                                        <li>Input: 	RGBD data from Microsoft Kinect sensor</li>
+                                        <li>Process I:  	Registration of consecutive frames by visual feature matching
+                                        <li>Process II: 	Globally optimize the pose graph and align large planes</li>
+                                        <li>Process III:	De-noise and re-assign color of 3D points.</li>
+                                        <li>Output:	Full-size 3D map of a large indoor scene.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--</div>-->
+    <!--</div>-->
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/popper.js@1.12.5/dist/umd/popper.js" integrity="sha384-KlVcf2tswD0JOTQnzU4uwqXcbAy57PvV48YUiLjqpk/MJ2wExQhg9tuozn5A1iVw" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.0.0-beta.3/dist/js/bootstrap-material-design.js" integrity="sha384-hC7RwS0Uz+TOt6rNG8GX0xYCJ2EydZt1HeElNwQqW+3udRol4XwyBfISrNDgQcGA" crossorigin="anonymous"></script>
+<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+</body>
+</html>
+
