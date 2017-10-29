@@ -11,19 +11,23 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
 
     <!-- Material Design for Bootstrap CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.3/dist/css/bootstrap-material-design.min.css" integrity="sha384-k5bjxeyx3S5yJJNRD1eKUMdgxuvfisWKku5dwHQq9Q/Lz6H8CyL89KF52ICpX4cL" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/css/bootstrap-material-design.min.css"  crossorigin="anonymous">
 
     <link rel="stylesheet" href="static/css/cv_style.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.5/dist/umd/popper.js" integrity="sha384-KlVcf2tswD0JOTQnzU4uwqXcbAy57PvV48YUiLjqpk/MJ2wExQhg9tuozn5A1iVw" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/js/bootstrap-material-design.js"  crossorigin="anonymous"></script>
+
 </head>
 <body>
 <div class="container">
     <div class="row">
         <!--<div class="col-2">-->
-            <!--I am sidebar-->
+        <!--I am sidebar-->
         <!--</div>-->
         <div class="col-12">
             <!--Introduction-->
@@ -96,8 +100,9 @@
             </div>
             <!--Experience -->
             <div class="section card">
-                <h2>Projects</h2>
+
                 <div class="card-body">
+                    <h2>Projects</h2>
                     <!--project 1-->
                     <div class="item row">
                         <div class="item-img col-sm-6 col-lg-6">
@@ -220,7 +225,18 @@
                                         <li>Process II: 	Globally optimize the pose graph and align large planes</li>
                                         <li>Process III:	De-noise and re-assign color of 3D points.</li>
                                         <li>Output:	Full-size 3D map of a large indoor scene.</li>
+                                        <li>
+                                            <a class="btn btn-primary" data-toggle="collapse" aria-expanded="false" aria-controls="map-potree" href="#map-potree">
+                                                Map Demo
+                                            </a>
+                                        </li>
                                     </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div id="map-potree" class="panel-collapse collapse">
+                                    <iframe style="height: 500px; width: 100%;" src="./projects/map3d/potree/main.html"></iframe>
+
                                 </div>
                             </div>
                         </div>
@@ -232,9 +248,6 @@
     <!--</div>-->
     <!--</div>-->
 </div>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/popper.js@1.12.5/dist/umd/popper.js" integrity="sha384-KlVcf2tswD0JOTQnzU4uwqXcbAy57PvV48YUiLjqpk/MJ2wExQhg9tuozn5A1iVw" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/bootstrap-material-design@4.0.0-beta.3/dist/js/bootstrap-material-design.js" integrity="sha384-hC7RwS0Uz+TOt6rNG8GX0xYCJ2EydZt1HeElNwQqW+3udRol4XwyBfISrNDgQcGA" crossorigin="anonymous"></script>
 <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
 </body>
 </html>
